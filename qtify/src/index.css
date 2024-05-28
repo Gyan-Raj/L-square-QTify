@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: rgba(0, 189, 43, 1);
+  --color-black: black;
+}

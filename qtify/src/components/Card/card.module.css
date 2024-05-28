@@ -1,0 +1,25 @@
+.tooltip {
+  width: Hug (159px) px;
+  height: Hug (232px) px;
+  gap: 6px;
+  opacity: 0px;
+  background-color: red;
+}
+.content {
+  width: 159px;
+  height: 205px;
+  gap: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+}
+
+.image {
+  width: 159px;
+  height: 170px;
+  gap: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0px;
+  background-color: blue;
+}

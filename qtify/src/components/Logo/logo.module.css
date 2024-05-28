@@ -1,0 +1,9 @@
+.logo {
+  width: 67px;
+  height: 34px;
+  margin-left: 32px;
+  /* margin-top: 20px;
+  gap: 0px;
+  opacity: 0px; */
+  display: flex;
+}
