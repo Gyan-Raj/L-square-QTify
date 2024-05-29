@@ -3,9 +3,9 @@ import style from "./button.module.css";
 
 const Button = () => {
   return (
-    <div className={style.button}>
+    <button className={style.button}>
       <h1>Give Feedback</h1>
-    </div>
+    </button>
   );
 };
 export default Button;
