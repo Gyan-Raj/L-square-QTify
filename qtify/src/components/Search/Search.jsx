@@ -1,18 +1,17 @@
 import React from "react";
-import style from "./search.module.css";
-import { ReactComponent as SearchIcon } from "../../assets/SearchIcon.svg";
-const Search = (data) => {
+// The imported PNG file is treated as a React component, and you can use it just like any other React component in your application.
+import { ReactComponent as SearchIcon } from "../../assets/search-icon.svg";
+import styles from "./search.module.css";
+
+const SearchBar = ({ search }) => {
   return (
-    <form className={style.form}>
-      <input
-        type="text"
-        className={style.input}
-        placeholder={data.placeholder}
-      />
-      <button className={style.button}>
+    <form className={styles.wrapper}>
+      <input className={styles.search} placeholder={search} />
+      <button className={styles.searchButton} type="submit">
         <SearchIcon />
       </button>
     </form>
   );
 };
-export default Search;
+
+export default SearchBar;

@@ -1,19 +1,19 @@
 import React from "react";
-import heroImage from "../../assets/hero_headphones.png";
-import style from "./hero.module.css";
-
-function Hero() {
+import HeroImage from "../../assets/hero_headphones.png";
+import styles from "./hero.module.css";
+const Hero = () => {
   return (
-    <div className={style.container}>
-      <div className={style.text}>
-        <h1>100 Thousand Songs, ad-free</h1>
-        <h1>Over thousands podcast episodes</h1>
-      </div>
-      <div>
-        <img src={heroImage} alt="Headphone" className={style.image} />
-      </div>
-    </div>
+    <>
+      <section className={styles.Hero}>
+        <div className={styles.HeroTitle}>
+          <h1>100 Thousand Songs, ad-free</h1>
+          <h1>Over thousands podcast episodes</h1>
+        </div>
+        <img className={styles.HeroImage} src={HeroImage} alt="headphone" />
+      </section>
+    </>
   );
-}
+};
 
 export default Hero;
+// rcfe: react component function export

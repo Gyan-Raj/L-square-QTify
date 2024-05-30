@@ -1,19 +1,19 @@
 import React from "react";
-import style from "./navbar.module.css";
-import { Link } from "react-router-dom";
+import styles from "./navbar.module.css";
 import Logo from "../Logo/Logo";
-import Search from "../Search/Search";
+import SearchBar from "../Search/Search.jsx";
 import Button from "../Button/Button";
 
 const Navbar = () => {
   return (
-    <nav className={style.nav}>
-      <Link to="/">
+    <>
+      <nav className={styles.navbar}>
         <Logo />
-      </Link>
-      <Search placeholder="Search a song of your choice" />
-      <Button />
-    </nav>
+        <SearchBar search={"Search a song of your choice"} />
+        <Button children={"Give Feedback"} />
+      </nav>
+    </>
   );
 };
+
 export default Navbar;
