@@ -105,13 +105,13 @@ function App() {
       <div className={styles.sectionWrapper}>
         <Section type="album" title="Top Albums" data={topAlbumSongs} />
         <Section type="album" title="New Albums" data={newAlbumSongs} />
-        {/* <FilterSection
+        <FilterSection
           type="song"
           title="Songs"
           value={value}
           filteredData={filteredData}
           handleChangeIndex={handleChangeIndex}
-        /> */}
+        />
       </div>
     </div>
   );
